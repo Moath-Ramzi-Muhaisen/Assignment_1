@@ -15,6 +15,5 @@ else if (invoice >= 300 && invoice < 500)
     finalAmount = invoice - discount;
 }
 
-Console.WriteLine("Final Amount: " + finalAmount);
+Console.WriteLine($"Final Amount:{finalAmount}");
 
-Console.WriteLine("Test Changes");
